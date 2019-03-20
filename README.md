@@ -9,7 +9,8 @@ A simple script running on some raspberry pies at the office for logging tempera
 
 **Crontab**:
 `0,20,40 * * * * /usr/bin/python3 /home/pi/templogger.py > /home/pi/templogger.log`
-*We are loggint to `templogger.log` just so that we can take a look at the latest run result if we ever encounter issues*
+
+*We are piping the output to `templogger.log` just so that we can take a look at the latest run result if we ever encounter issues*
 
 **Overkill**: Yes
 
