@@ -2,15 +2,16 @@
 A simple script running on some raspberry pies at the office for logging temperature changes over time.
 
 
-Equipment: 
+**Equipment**: 
 * 18B20 - Temperature sensor (+/- 0.5c)
 * 4.7k resistor between data and the power pin (pullup)
 * Raspberry Pi 3 B+
 
-Overkill: Yes
-Why: Quickest thing at hand with an ethernet connector
+**Overkill**: Yes
 
-How its running: 
+**Why rPI**: Quickest thing at hand with an ethernet connector
+
+**How its running**: 
 on Rasbian with Crontab logging at 0,20 and 40 minute mark of every hour. 
 
 ### Before use
