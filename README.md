@@ -7,6 +7,10 @@ A simple script running on some raspberry pies at the office for logging tempera
 * 4.7k resistor between data and the power pin (pullup)
 * Raspberry Pi 3 B+
 
+**Crontab**:
+`0,20,40 * * * * /usr/bin/python3 /home/pi/templogger.py > /home/pi/templogger.log`
+*We are loggint to `templogger.log` just so that we can take a look at the latest run result if we ever encounter issues*
+
 **Overkill**: Yes
 
 **Why rPI**: Quickest thing at hand with an ethernet connector
