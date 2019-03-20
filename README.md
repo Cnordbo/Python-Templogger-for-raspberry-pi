@@ -4,6 +4,7 @@ A simple script running on some raspberry pies at the office for logging tempera
 
 Equipment: 
 * 18B20 - Temperature sensor (+/- 0.5c)
+* 4.7k resistor between data and the power pin (pullup)
 * Raspberry Pi 3 B+
 
 Overkill: Yes
